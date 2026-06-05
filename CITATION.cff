@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you find this curated list useful, please cite the companion survey and/or this repository."
+title: "Awesome Neuro-Symbolic Scientific Reasoning"
+abstract: >-
+  A curated list of papers and resources on Neuro-Symbolic Large Language Models
+  for trustworthy scientific reasoning, organised by a three-layer framework:
+  knowledge injection, symbolic reasoning & verification, and reasoning orchestration.
+type: software
+authors:
+  - family-names: Cui
+    given-names: Wenyao
+repository-code: "https://github.com/cuiwenyao/Awesome-Neuro-Symbolic-Scientific-Reasoning"
+url: "https://github.com/cuiwenyao/Awesome-Neuro-Symbolic-Scientific-Reasoning"
+keywords:
+  - neuro-symbolic
+  - large language models
+  - scientific reasoning
+  - verifiable reasoning
+  - theorem proving
+  - AI for science
+license: CC-BY-4.0
+date-released: "2026-06-05"
+preferred-citation:
+  type: generic
+  title: >-
+    Neurosymbolic Large Language Models for Trustworthy Scientific Reasoning:
+    A Survey of Knowledge Injection, Explainable Verification, and Dynamic Control
+  authors:
+    - family-names: Cui
+      given-names: Wenyao
+  year: 2026
+  notes: "Manuscript in preparation."
