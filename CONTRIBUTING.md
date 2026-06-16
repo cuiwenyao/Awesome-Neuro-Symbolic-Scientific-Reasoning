@@ -32,13 +32,16 @@ Rules · 规则:
 
 ## Which section? · 归入哪个章节？
 
-We organise papers by the survey's **three-layer framework**:
+We organise papers by the survey's **three-layer trust pipeline** (which closes into a loop):
 
-| Layer | Question it answers | Section |
-| :-- | :-- | :-- |
-| **Representation** | How does knowledge enter the model? | Layer 1 — Knowledge Injection |
-| **Reasoning** | How does reasoning become executable & checkable? | Layer 2 — Symbolic Reasoning & Verification |
-| **Orchestration** | How are reasoning paths & backends chosen? | Layer 3 — Reasoning Orchestration |
+| Layer | Trust dimension | Question it answers | Section |
+| :-- | :-- | :-- | :-- |
+| **Knowledge** | epistemic | Does the knowledge carry provenance, currency & a confidence it can be checked against? | Layer 1 — Knowledge Grounding |
+| **Reasoning** | inferential | Does the conclusion *follow* — can a back-end execute or refute it? | Layer 2 — Formalization & Executable Reasoning |
+| **Verification** | empirical | Does the candidate hold up under scrutiny — and where does it break? | Layer 3 — Verification, Diagnosis & Adaptive Control |
+| **Application** | (practice closure) | Does verification close the loop in a given science? | Applications across the Sciences |
+
+When adding a method, please also note its **symbolic roles** (K grounder · R representation · G generator · E engine · V verifier · A actuator) and, where it applies, its **Kautz integration depth** (T1 loosest → T6 tightest).
 
 Foundational solvers, surveys, AI-for-Science milestones and evaluation suites have their own top-level sections. If unsure, propose a placement in your PR and we'll discuss.
 
